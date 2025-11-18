@@ -1,0 +1,14 @@
+
+<div class="h-screen w-screen flex flex-col">
+  @if (showMainLayout()) {
+    <app-header></app-header>
+    <div class="flex flex-1 overflow-hidden">
+      <app-sidebar></app-sidebar>
+      <main class="flex-1 overflow-y-auto p-6 md:p-8 bg-gray-100">
+        <router-outlet></router-outlet>
+      </main>
+    </div>
+  } @else {
+    <router-outlet></router-outlet>
+  }
+</div>

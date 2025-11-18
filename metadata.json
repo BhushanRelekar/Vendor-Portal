@@ -1,0 +1,5 @@
+{
+  "name": "Vendor Portal",
+  "description": "An external-facing portal for vendors to register, login, and manage their profiles, work orders, and payments. It streamlines the vendor empanelment process, provides real-time status updates, and reduces manual follow-ups through automated notifications.",
+  "requestFramePermissions": []
+}
